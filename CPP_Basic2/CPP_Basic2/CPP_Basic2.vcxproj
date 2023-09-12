@@ -127,7 +127,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Ch01_Variable.cpp" />
+    <ClCompile Include="Ch02_Operation.cpp" />
+    <ClCompile Include="Ch03_Statement.cpp" />
+    <ClCompile Include="Ch04-2_Example.cpp" />
+    <ClCompile Include="Ch04_Example.cpp" />
+    <ClCompile Include="Ch05-1_Example.cpp" />
+    <ClCompile Include="Ch05-2_Sort.cpp" />
+    <ClCompile Include="Ch05_Array.cpp" />
+    <ClCompile Include="Ch06-1_Example.cpp" />
+    <ClCompile Include="Ch06_String.cpp" />
+    <ClCompile Include="Ch07_Structure.cpp" />
     <ClCompile Include="CPP_Basic2.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CPP_Basic2.h" />
+    <ClInclude Include="io.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Basic.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
