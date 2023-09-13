@@ -1,77 +1,77 @@
-#include "io.h"
+ï»¿#include "io.h"
 
 void StatementIf()
 {
     // if
     int Total1 = 70;
-    // ÃÑÁ¡ÀÌ 60ÀÌ»óÀÌ¸é "ÇÕ°Ý" Ãâ·Â
+    // ì´ì ì´ 60ì´ìƒì´ë©´ "í•©ê²©" ì¶œë ¥
     if (Total1 >= 60) {
-        cout << "ÇÕ°Ý" << endl;
+        cout << "í•©ê²©" << endl;
     }
-    // ÃÑÁ¡ÀÌ 60ÀÌ»óÀÌ¸é "ÇÕ°Ý" Ãâ·Â ¾Æ´Ï¸é "ºÒÇÕ°Ý"
+    // ì´ì ì´ 60ì´ìƒì´ë©´ "í•©ê²©" ì¶œë ¥ ì•„ë‹ˆë©´ "ë¶ˆí•©ê²©"
     int Total2 = 50;
     if (Total2 >= 60) {
-        cout << "ÇÕ°Ý" << endl;
+        cout << "í•©ê²©" << endl;
     }
     else {
-        cout << "ºÒÇÕ°Ý" << endl;
+        cout << "ë¶ˆí•©ê²©" << endl;
     }
 
-    // ÃÑÁ¡ÀÌ 90ÀÌ»óÀÌ¸é "¼ö", 80ÀÌ»óÀÌ¸é "¿ì", ¾Æ´Ï¸é "Àç¼ö°­"
+    // ì´ì ì´ 90ì´ìƒì´ë©´ "ìˆ˜", 80ì´ìƒì´ë©´ "ìš°", ì•„ë‹ˆë©´ "ìž¬ìˆ˜ê°•"
     int Total3 = 85;
 
     if (Total3 >= 90) {
-        cout << "¼ö" << endl;
+        cout << "ìˆ˜" << endl;
     }
     else if (Total3 >= 80) {
-        cout << "¿ì" << endl;
+        cout << "ìš°" << endl;
     }
     else {
-        cout << "Àç¼ö°­" << endl;
+        cout << "ìž¬ìˆ˜ê°•" << endl;
     }
 
-    // 3°ú¸ñ Æò±ÕÁ¡¼ö°¡ 60ÀÌ»óÀÌ¸é ÇÕ°Ý, ¾Æ´Ï¸é ºÒÇÕ°Ý
-    // °¢ °ú¸ñ´ç Á¡¼ö°¡ 60¹Ì¸¸ÀÌ¸é °ú¶ô
+    // 3ê³¼ëª© í‰ê· ì ìˆ˜ê°€ 60ì´ìƒì´ë©´ í•©ê²©, ì•„ë‹ˆë©´ ë¶ˆí•©ê²©
+    // ê° ê³¼ëª©ë‹¹ ì ìˆ˜ê°€ 60ë¯¸ë§Œì´ë©´ ê³¼ë½
     int Subject1 = 90;
     int Subject2 = 80;
     int Subject3 = 50;
     int Average = (Subject1 + Subject2 + Subject3) / 3;
 
-    // Æò±Õ,°ú¸ñ´ç Á¡¼ö ¸ðµÎ 60ÀÌ»óÀÌ¸é ÇÕ°Ý
-    // Æò±Õ>=60 && °ú¸ñ1>=60 && °ú¸ñ2>=60 && °ú¸ñ3>=60
+    // í‰ê· ,ê³¼ëª©ë‹¹ ì ìˆ˜ ëª¨ë‘ 60ì´ìƒì´ë©´ í•©ê²©
+    // í‰ê· >=60 && ê³¼ëª©1>=60 && ê³¼ëª©2>=60 && ê³¼ëª©3>=60
     if (Average >= 60 && Subject1 >= 60 && Subject2 >= 60 && Subject3 >= 60) {
-        cout << "ÇÕ°Ý" << endl;
+        cout << "í•©ê²©" << endl;
     }
     else {
-        cout << "ºÒÇÕ°Ý" << endl;
+        cout << "ë¶ˆí•©ê²©" << endl;
     }
 
     int Subject4 = 0;
     int Subject5 = 0;
     int Subject6 = 0;
 
-    // cout << "1°ú¸ñ Á¡¼ö¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä : ";
+    // cout << "1ê³¼ëª© ì ìˆ˜ë¥¼ ìž…ë ¥í•´ì£¼ì„¸ìš” : ";
     // cin >> Subject4;
-    // cout << "2°ú¸ñ Á¡¼ö¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä : ";
+    // cout << "2ê³¼ëª© ì ìˆ˜ë¥¼ ìž…ë ¥í•´ì£¼ì„¸ìš” : ";
     // cin >> Subject5;
-    // cout << "3°ú¸ñ Á¡¼ö¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä : ";
+    // cout << "3ê³¼ëª© ì ìˆ˜ë¥¼ ìž…ë ¥í•´ì£¼ì„¸ìš” : ";
     // cin >> Subject6;
 
     int AverageIn = (Subject4 + Subject5 + Subject6) / 3;
 
     if (AverageIn >= 60 && Subject4 >= 60 && Subject5 >= 60 && Subject6 >= 60) {
-        cout << "ÇÕ°Ý" << endl;
+        cout << "í•©ê²©" << endl;
     }
     else {
-        cout << "ºÒÇÕ°Ý" << endl;
+        cout << "ë¶ˆí•©ê²©" << endl;
     }
 }
 
 void StatementSwitch()
 {
-    // °ú¸ñ ¹øÈ£ : 1-C++, 2-¾ð¸®¾ó¿£Áø, 3-VR
+    // ê³¼ëª© ë²ˆí˜¸ : 1-C++, 2-ì–¸ë¦¬ì–¼ì—”ì§„, 3-VR
     int SubjectNumber = 0;
-    cout << "°ú¸ñ ¹øÈ£¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä : ";
+    cout << "ê³¼ëª© ë²ˆí˜¸ë¥¼ ìž…ë ¥í•´ì£¼ì„¸ìš” : ";
     cin >> SubjectNumber;
 
     switch (SubjectNumber)
@@ -80,25 +80,25 @@ void StatementSwitch()
         cout << "C++" << endl;
         break;
     case 2:
-        cout << "¾ð¸®¾ó¿£Áø" << endl;
+        cout << "ì–¸ë¦¬ì–¼ì—”ì§„" << endl;
         break;
     case 3:
         cout << "VR" << endl;
         break;
     default:
-        cout << "°ú¸ñ ¹øÈ£¸¦ ´Ù½Ã ÀÔ·ÂÇØÁÖ¼¼¿ä." << endl;
+        cout << "ê³¼ëª© ë²ˆí˜¸ë¥¼ ë‹¤ì‹œ ìž…ë ¥í•´ì£¼ì„¸ìš”." << endl;
     }
     if (SubjectNumber == 1) {
         cout << "C++" << endl;
     }
     else if (SubjectNumber == 2) {
-        cout << "¾ð¸®¾ó¿£Áø" << endl;
+        cout << "ì–¸ë¦¬ì–¼ì—”ì§„" << endl;
     }
     else if (SubjectNumber == 3) {
         cout << "VR" << endl;
     }
     else {
-        cout << "°ú¸ñ ¹øÈ£¸¦ ´Ù½Ã ÀÔ·ÂÇØÁÖ¼¼¿ä." << endl;
+        cout << "ê³¼ëª© ë²ˆí˜¸ë¥¼ ë‹¤ì‹œ ìž…ë ¥í•´ì£¼ì„¸ìš”." << endl;
     }
 }
 
@@ -109,22 +109,22 @@ void StatementNestedIf()
     int c = 30;
 
     if (a < b) {
-        cout << "a<b ºñ±³½Ä¸¸ ´Ù·ç´Â ½ÇÇà¹®" << endl;
+        cout << "a<b ë¹„êµì‹ë§Œ ë‹¤ë£¨ëŠ” ì‹¤í–‰ë¬¸" << endl;
 
         if (b < c) {
-            cout << "ÁßÃ¸ IF" << endl;
+            cout << "ì¤‘ì²© IF" << endl;
         }
     }
 
     if (a < b && b < c) {
-        cout << "And ¿¬»ê IF" << endl;
+        cout << "And ì—°ì‚° IF" << endl;
     }
 }
 
 void StatementFor()
 {
 
-    // integer, iterate(iterable) : ¹Ýº¹ÇÏ´Ù 
+    // integer, iterate(iterable) : ë°˜ë³µí•˜ë‹¤ 
     for (int i = 0; i < 10; i++) {
         cout << i;
     }
@@ -184,17 +184,17 @@ void StatementWhile()
     while (true) {
 
 
-        cout << "·Î±×ÀÎ";
+        cout << "ë¡œê·¸ì¸";
         cin >> InputId;
 
         if (InputId == IdNumber)
         {
-            cout << "·Î±×ÀÎ ¼º°ø" << endl;
+            cout << "ë¡œê·¸ì¸ ì„±ê³µ" << endl;
             break;
         }
         else
         {
-            cout << "´Ù½Ã ÀÔ·ÂÇØÁÖ¼¼¿ä." << endl;
+            cout << "ë‹¤ì‹œ ìž…ë ¥í•´ì£¼ì„¸ìš”." << endl;
         }
 
     }
@@ -223,8 +223,8 @@ void VarScope(int Number)
         int BlockValue = 30;
     }
 
-    cout << "Àü¿ªº¯¼ö°ª : " << GlobalValue << endl;
-    cout << "ÇÔ¼öÁö¿ªº¯¼ö°ª : " << FunctionValue << endl;
-    //cout << "ºí·ÏÁö¿ªº¯¼ö°ª : " << BlockValue << endl;
-    cout << "ÆÄ¶ó¹ÌÅÍ °ª : " << Number << endl;
+    cout << "ì „ì—­ë³€ìˆ˜ê°’ : " << GlobalValue << endl;
+    cout << "í•¨ìˆ˜ì§€ì—­ë³€ìˆ˜ê°’ : " << FunctionValue << endl;
+    //cout << "ë¸”ë¡ì§€ì—­ë³€ìˆ˜ê°’ : " << BlockValue << endl;
+    cout << "íŒŒë¼ë¯¸í„° ê°’ : " << Number << endl;
 }

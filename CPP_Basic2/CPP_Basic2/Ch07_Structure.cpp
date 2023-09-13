@@ -1,8 +1,8 @@
-#include "io.h"
+ï»¿#include "io.h"
 
 void Structure()
 {
-    // ±¸Á¶Ã¼ ¼­¼ú Á¤ÀÇ : µ¥ÀÌÅÍ Å¸ÀÔÀ» »ı¼º
+    // êµ¬ì¡°ì²´ ì„œìˆ  ì •ì˜ : ë°ì´í„° íƒ€ì…ì„ ìƒì„±
     struct inflatable {
         char name[20];
         float volume;
@@ -12,7 +12,7 @@ void Structure()
     inflatable People = { "Tom", 0.75, 15.235 };
 
     struct sesac {
-        // ¸â¹ö º¯¼ö
+        // ë©¤ë²„ ë³€ìˆ˜
         char name[20];
         char address[100];
         char phone[20];
@@ -20,16 +20,16 @@ void Structure()
     };
 
     sesac Banjang;
-    Banjang = { "Jane", "¼­¿ï½Ã", "01012345678", 25 };
+    Banjang = { "Jane", "ì„œìš¸ì‹œ", "01012345678", 25 };
     Banjang.age = 30;
 
 }
 
 void Enum()
 {
-    // enum : ¿­°ÅÇü µ¥ÀÌÅÍ Å¸ÀÔ
-    // Sun, Mon, Tue ... Sat : ¿­°ÅÇü »ó¼ö
-    // 0ºÎÅÍ ½ÃÀÛÇÏ´Â ¾ç¼ö¸¦ ¿­°ÅÇü »ó¼öÀÇ °ªÀ¸·Î ÇÒ´ç
+    // enum : ì—´ê±°í˜• ë°ì´í„° íƒ€ì…
+    // Sun, Mon, Tue ... Sat : ì—´ê±°í˜• ìƒìˆ˜
+    // 0ë¶€í„° ì‹œì‘í•˜ëŠ” ì–‘ìˆ˜ë¥¼ ì—´ê±°í˜• ìƒìˆ˜ì˜ ê°’ìœ¼ë¡œ í• ë‹¹
     enum day { Sun, Mon, Tue, Wed = 10, Thu, Fri, Sat };
 
     day DayName;

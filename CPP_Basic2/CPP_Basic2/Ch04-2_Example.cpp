@@ -1,17 +1,17 @@
-#include "io.h"
-//¹İº¹¹®¿¡ ´ëÇÑ ¿¹Á¦ÀÔ´Ï´Ù.
-void MultipleCalculate() //¹éÁØ 10950
+ï»¿#include "io.h"
+//ë°˜ë³µë¬¸ì— ëŒ€í•œ ì˜ˆì œì…ë‹ˆë‹¤.
+void MultipleCalculate() //ë°±ì¤€ 10950
 {
     int LoopCount, Value1, Value2;
-    cout << "¹İº¹ È½¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä." << endl;
+    cout << "ë°˜ë³µ íšŸìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš”." << endl;
     cin >> LoopCount;
 
     for (int i = 0; i < LoopCount; i++)
     {
-        cout << "µÎ ¼ö¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä." << endl;
+        cout << "ë‘ ìˆ˜ë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš”." << endl;
         cin >> Value1;
         cin >> Value2;
-        cout << "ÇÕ : " << Value1 + Value2 << endl;
+        cout << "í•© : " << Value1 + Value2 << endl;
     }
 }
 
@@ -26,8 +26,8 @@ void ReceiptInspection()
         cin >> C >> D;
         Sum = Sum + (C * D);
     }
-    cout << "¿µ¼öÁõ °ª : " << A << endl;
-    cout << "³»°¡ °è»êÇÑ °ª : " << Sum << endl;
+    cout << "ì˜ìˆ˜ì¦ ê°’ : " << A << endl;
+    cout << "ë‚´ê°€ ê³„ì‚°í•œ ê°’ : " << Sum << endl;
     if (A == Sum) cout << "Yes";
     else cout << "No";
 }

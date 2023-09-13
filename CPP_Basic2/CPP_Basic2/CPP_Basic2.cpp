@@ -1,10 +1,12 @@
-#include "io.h";
+ï»¿#include "io.h";
 #include "CPP_Basic2.h";
 
-// ÁÖ ½ÇÇà ÇÔ¼ö
-// ÄÚµå ºí·° : {} ¿µ¿ª, ±â´É ´ÜÀ§·Î ±×·ìÈ­
+// ì£¼ ì‹¤í–‰ í•¨ìˆ˜
+// ì½”ë“œ ë¸”ëŸ­ : {} ì˜ì—­, ê¸°ëŠ¥ ë‹¨ìœ„ë¡œ ê·¸ë£¹í™”
 int main()
 {
-	VariableTypeCharacter();
+	PointerDefine();
 	cout << endl << "End of Code" << endl;
+
+
 }

@@ -1,10 +1,10 @@
-#include "io.h"
+ï»¿#include "io.h"
 
 void String()
 {
     char a = 'a';
     char hello[5] = { 'H','E','L','L','O' };
-    char world[6] = "world"; // '\0' ÀÌ¶ó´Â ¹®ÀÚ°¡ ¸¶Áö¸·¿¡ Æ÷ÇÔµÊ
+    char world[6] = "world"; // '\0' ì´ë¼ëŠ” ë¬¸ìê°€ ë§ˆì§€ë§‰ì— í¬í•¨ë¨
 
     char b[] = "Hello World";
 

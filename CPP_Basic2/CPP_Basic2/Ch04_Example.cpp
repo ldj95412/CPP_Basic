@@ -1,4 +1,4 @@
-#include "io.h"
+ï»¿#include "io.h"
 
 void TripleDice()
 {
@@ -12,7 +12,7 @@ void OvenClock()
     short SetMinutes;
     while (true)
     {
-        cout << "¿ä¸®¸¦ ½ÃÀÛÇÒ ½Ã°£À» ÀÔ·ÂÇØÁÖ¼¼¿ä" << endl;
+        cout << "ìš”ë¦¬ë¥¼ ì‹œìž‘í•  ì‹œê°„ì„ ìž…ë ¥í•´ì£¼ì„¸ìš”" << endl;
         cin >> Hours;
 
         if (0 <= Hours && 24 > Hours)
@@ -21,11 +21,11 @@ void OvenClock()
         }
         else
         {
-            cout << "Àß¸øµÈ ½Ã°£ ÀÔ·ÂÀÔ´Ï´Ù." << endl;
+            cout << "ìž˜ëª»ëœ ì‹œê°„ ìž…ë ¥ìž…ë‹ˆë‹¤." << endl;
             continue;
         }
 
-        cout << "¿ä¸®¸¦ ½ÃÀÛÇÒ ºÐÀ» ÀÔ·ÂÇØÁÖ¼¼¿ä" << endl;
+        cout << "ìš”ë¦¬ë¥¼ ì‹œìž‘í•  ë¶„ì„ ìž…ë ¥í•´ì£¼ì„¸ìš”" << endl;
         cin >> Minutes;
 
         if (0 <= Minutes && 60 > Minutes)
@@ -34,10 +34,10 @@ void OvenClock()
         }
         else
         {
-            cout << "Àß¸øµÈ ½Ã°£ ÀÔ·ÂÀÔ´Ï´Ù." << endl;
+            cout << "ìž˜ëª»ëœ ì‹œê°„ ìž…ë ¥ìž…ë‹ˆë‹¤." << endl;
             continue;
         }
-        cout << "½Ã°£À» ¼¼ÆÃÇÒ ºÐÀ» ÀÔ·ÂÇØÁÖ¼¼¿ä" << endl;
+        cout << "ì‹œê°„ì„ ì„¸íŒ…í•  ë¶„ì„ ìž…ë ¥í•´ì£¼ì„¸ìš”" << endl;
         cin >> SetMinutes;
 
         if (0 <= SetMinutes && 1000 >= SetMinutes)
@@ -46,7 +46,7 @@ void OvenClock()
         }
         else
         {
-            cout << "Àß¸øµÈ ½Ã°£ ÀÔ·ÂÀÔ´Ï´Ù." << endl;
+            cout << "ìž˜ëª»ëœ ì‹œê°„ ìž…ë ¥ìž…ë‹ˆë‹¤." << endl;
             continue;
         }
 
@@ -57,12 +57,12 @@ void OvenClock()
         if (Hours > 23)
         {
             Hours -= 24;
-            cout << Hours << "½Ã " << Minutes << "ºÐ¿¡ ¿ä¸®°¡ ¿Ï·áµÉ ¿¹Á¤ÀÔ´Ï´Ù..";
+            cout << Hours << "ì‹œ " << Minutes << "ë¶„ì— ìš”ë¦¬ê°€ ì™„ë£Œë  ì˜ˆì •ìž…ë‹ˆë‹¤..";
             break;
         }
         else
         {
-            cout << Hours << "½Ã " << Minutes << "ºÐ¿¡ ¿ä¸®°¡ ¿Ï·áµÉ ¿¹Á¤ÀÔ´Ï´Ù..";
+            cout << Hours << "ì‹œ " << Minutes << "ë¶„ì— ìš”ë¦¬ê°€ ì™„ë£Œë  ì˜ˆì •ìž…ë‹ˆë‹¤..";
             break;
         }
     }
@@ -74,7 +74,7 @@ void AlarmClock()
     short Minutes;
     while (true)
     {
-        cout << "¾Ë¶÷À» ¼³Á¤ÇÒ ½Ã°£À» ÀÔ·ÂÇØÁÖ¼¼¿ä" << endl;
+        cout << "ì•ŒëžŒì„ ì„¤ì •í•  ì‹œê°„ì„ ìž…ë ¥í•´ì£¼ì„¸ìš”" << endl;
         cin >> Hours;
 
         if (0 <= Hours && 24 > Hours)
@@ -83,11 +83,11 @@ void AlarmClock()
         }
         else
         {
-            cout << "Àß¸øµÈ ½Ã°£ ÀÔ·ÂÀÔ´Ï´Ù." << endl;
+            cout << "ìž˜ëª»ëœ ì‹œê°„ ìž…ë ¥ìž…ë‹ˆë‹¤." << endl;
             continue;
         }
 
-        cout << "¾Ë¶÷À» ¼³Á¤ÇÒ ºÐÀ» ÀÔ·ÂÇØÁÖ¼¼¿ä" << endl;
+        cout << "ì•ŒëžŒì„ ì„¤ì •í•  ë¶„ì„ ìž…ë ¥í•´ì£¼ì„¸ìš”" << endl;
         cin >> Minutes;
 
         if (0 <= Minutes && 60 > Minutes)
@@ -96,14 +96,14 @@ void AlarmClock()
         }
         else
         {
-            cout << "Àß¸øµÈ ½Ã°£ ÀÔ·ÂÀÔ´Ï´Ù." << endl;
+            cout << "ìž˜ëª»ëœ ì‹œê°„ ìž…ë ¥ìž…ë‹ˆë‹¤." << endl;
             continue;
         }
 
         if (Minutes > 44)
         {
             Minutes -= 45;
-            cout << Hours << "½Ã " << Minutes << "ºÐÀ¸·Î ¾Ë¶÷¼³Á¤ÀÌ ¿Ï·áµÇ¾ú½À´Ï´Ù.";
+            cout << Hours << "ì‹œ " << Minutes << "ë¶„ìœ¼ë¡œ ì•ŒëžŒì„¤ì •ì´ ì™„ë£Œë˜ì—ˆìŠµë‹ˆë‹¤.";
             break;
         }
         else
@@ -114,7 +114,7 @@ void AlarmClock()
             {
                 Hours += 24;
             }
-            cout << Hours << "½Ã " << Minutes << "ºÐÀ¸·Î ¾Ë¶÷¼³Á¤ÀÌ ¿Ï·áµÇ¾ú½À´Ï´Ù.";
+            cout << Hours << "ì‹œ " << Minutes << "ë¶„ìœ¼ë¡œ ì•ŒëžŒì„¤ì •ì´ ì™„ë£Œë˜ì—ˆìŠµë‹ˆë‹¤.";
             break;
         }
     }
@@ -127,30 +127,30 @@ void PickQuadrant()
 rewind:
     int AxisX;
     int AxisY;
-    cout << "X ÁÂÇ¥¸¦ ÀÔ·ÂÇÏ¼¼¿ä. : ";
+    cout << "X ì¢Œí‘œë¥¼ ìž…ë ¥í•˜ì„¸ìš”. : ";
     cin >> AxisX;
-    cout << "Y ÁÂÇ¥¸¦ ÀÔ·ÂÇÏ¼¼¿ä. : ";
+    cout << "Y ì¢Œí‘œë¥¼ ìž…ë ¥í•˜ì„¸ìš”. : ";
     cin >> AxisY;
 
     if (AxisX > 0 && AxisY > 0)
     {
-        cout << "1»çºÐ¸é ÀÔ´Ï´Ù." << endl;
+        cout << "1ì‚¬ë¶„ë©´ ìž…ë‹ˆë‹¤." << endl;
     }
     else if (AxisX > 0 && AxisY < 0)
     {
-        cout << "2»çºÐ¸é ÀÔ´Ï´Ù." << endl;
+        cout << "2ì‚¬ë¶„ë©´ ìž…ë‹ˆë‹¤." << endl;
     }
     else if (AxisX < 0 && AxisY < 0)
     {
-        cout << "3»çºÐ¸é ÀÔ´Ï´Ù." << endl;
+        cout << "3ì‚¬ë¶„ë©´ ìž…ë‹ˆë‹¤." << endl;
     }
     else if (AxisX < 0 && AxisY > 0)
     {
-        cout << "4»çºÐ¸é ÀÔ´Ï´Ù." << endl;
+        cout << "4ì‚¬ë¶„ë©´ ìž…ë‹ˆë‹¤." << endl;
     }
     else
     {
-        cout << "Àß¸øµÈ Á¢±ÙÀÔ´Ï´Ù." << endl;
+        cout << "ìž˜ëª»ëœ ì ‘ê·¼ìž…ë‹ˆë‹¤." << endl;
         goto rewind;
     }
 
@@ -159,16 +159,16 @@ rewind:
 void LeapYear()
 {
     int PreYear;
-    cout << "À±³âÀ» ÆÇº°ÇÏ°í ½ÍÀº ¿¬µµ¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä : ";
+    cout << "ìœ¤ë…„ì„ íŒë³„í•˜ê³  ì‹¶ì€ ì—°ë„ë¥¼ ìž…ë ¥í•´ì£¼ì„¸ìš” : ";
     cin >> PreYear;
 
     if ((PreYear % 4 == 0 && PreYear % 100 != 0) || PreYear % 400 == 0)
     {
-        cout << "À±³âÀÌ ¸Â½À´Ï´Ù." << endl;
+        cout << "ìœ¤ë…„ì´ ë§žìŠµë‹ˆë‹¤." << endl;
     }
     else
     {
-        cout << "À±³âÀÌ ¾Æ´Õ´Ï´Ù." << endl;
+        cout << "ìœ¤ë…„ì´ ì•„ë‹™ë‹ˆë‹¤." << endl;
     }
 }
 
@@ -176,9 +176,9 @@ void SizeComparison()
 {
     int Value1 = 0;
     int Value2 = 0;
-    cout << "Ã¹¹øÂ° °ªÀ» ÀÔ·ÂÇØÁÖ¼¼¿ä.";
+    cout << "ì²«ë²ˆì§¸ ê°’ì„ ìž…ë ¥í•´ì£¼ì„¸ìš”.";
     cin >> Value1;
-    cout << "µÎ¹øÂ° °ªÀ» ÀÔ·ÂÇØÁÖ¼¼¿ä.";
+    cout << "ë‘ë²ˆì§¸ ê°’ì„ ìž…ë ¥í•´ì£¼ì„¸ìš”.";
     cin >> Value2;
 
     if (Value1 > Value2)

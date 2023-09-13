@@ -1,22 +1,22 @@
-#include "io.h"
+ï»¿#include "io.h"
 
 void DefineArray()
 {
     int Num = 0;
 
-    // ¼±¾ð, declare(define)
+    // ì„ ì–¸, declare(define)
     int a[3] = { 1,2,3 };
     int b[10] = { 1,2 };
     // int c[3] = {1,2,3,4}; => Syntax Error
     int d[3];
 
-    // ´ëÀÔ => Á¢±Ù, access
+    // ëŒ€ìž… => ì ‘ê·¼, access
     // d[3] = {1,2,3};
     d[0] = 1;
     d[1] = 2;
     d[2] = 3;
 
-    // d ¹è¿­ÀÇ °³¼ö´Â 3°³, ¹Ýº¹ 5¹ø °ªÀ» ´ëÀÔ => ¿¡·¯ ¹ß»ý
+    // d ë°°ì—´ì˜ ê°œìˆ˜ëŠ” 3ê°œ, ë°˜ë³µ 5ë²ˆ ê°’ì„ ëŒ€ìž… => ì—ëŸ¬ ë°œìƒ
     for (int i = 0; i < 5; i++)
     {
         cout << "c" << i;
@@ -25,7 +25,7 @@ void DefineArray()
 
     cout << endl;
 
-    // Ãâ·Â => Á¢±Ù, Access
+    // ì¶œë ¥ => ì ‘ê·¼, Access
     for (int i = 0; i < 3; i++)
     {
         cout << a[i] << " : ";
@@ -33,7 +33,7 @@ void DefineArray()
 
     cout << endl;
 
-    // ¹è¿­ °³¼ö 10°³, 13¹ø ¹Ýº¹ Ãâ·Â => 10°³ ¹üÀ§ ³Ñ¾î¼­´Â ºÎºÐÀº ¾²·¹±â°ª Ãâ·Â
+    // ë°°ì—´ ê°œìˆ˜ 10ê°œ, 13ë²ˆ ë°˜ë³µ ì¶œë ¥ => 10ê°œ ë²”ìœ„ ë„˜ì–´ì„œëŠ” ë¶€ë¶„ì€ ì“°ë ˆê¸°ê°’ ì¶œë ¥
     for (int i = 0; i < 13; i++)
     {
         cout << b[i] << " : ";

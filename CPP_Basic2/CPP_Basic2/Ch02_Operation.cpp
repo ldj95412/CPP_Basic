@@ -1,4 +1,4 @@
-#include "io.h"
+ï»¿#include "io.h"
 
 void doSomething(int arith1, int arith2)
 {
@@ -22,11 +22,11 @@ void doSomething(int arith1, int arith2)
 
 void OperationIncrementDecrement()
 {
-    // Áõ°¨ ¿¬»ê
-    int Increase = 0; // ÃÊ±âÈ­
+    // ì¦ê° ì—°ì‚°
+    int Increase = 0; // ì´ˆê¸°í™”
     int Decrease = 10;
 
-    Increase = Increase + 1; // ´õÇØÁö´Â °ª : Áõ°¨°ª(Step)
+    Increase = Increase + 1; // ë”í•´ì§€ëŠ” ê°’ : ì¦ê°ê°’(Step)
     Decrease = Decrease - 2;
 
     cout << Increase << endl << Decrease << endl;
@@ -36,7 +36,7 @@ void OperationIncrementDecrement()
 
     cout << Increase << endl << Decrease << endl;
 
-    // Count : °³¼ö - 1¾¿ Áõ°¡, °¨¼Ò
+    // Count : ê°œìˆ˜ - 1ì”© ì¦ê°€, ê°ì†Œ
     Increase++;
     Decrease--;
 
@@ -45,7 +45,7 @@ void OperationIncrementDecrement()
 
 void OperationComparison()
 {
-    // ºñ±³ ¿¬»êÀÇ °á°ú °ª : Âü/°ÅÁş, true/false, 1/0
+    // ë¹„êµ ì—°ì‚°ì˜ ê²°ê³¼ ê°’ : ì°¸/ê±°ì§“, true/false, 1/0
     int Greater = 30;
     int Less = 10;
 
@@ -63,25 +63,25 @@ void OperationComparison()
 
 void OperationLogical()
 {
-    // ³í¸® ¿¬»ê
-    // AND : bool °ªÀÌ ¸ğµÎ trueÀÌ¸é °á°ú´Â true,
-    //       ÇÏ³ª¶óµµ falseÀÌ¸é °á°ú´Â false
+    // ë…¼ë¦¬ ì—°ì‚°
+    // AND : bool ê°’ì´ ëª¨ë‘ trueì´ë©´ ê²°ê³¼ëŠ” true,
+    //       í•˜ë‚˜ë¼ë„ falseì´ë©´ ê²°ê³¼ëŠ” false
     cout << (true && true) << endl;
     cout << (true && false) << endl;
 
-    // OR : bool °ªÀÌ ¸ğµÎ falseÀÌ¸é °á°ú false,
-    //      ÇÏ³ª¶óµµ trueÀÌ¸é °á°ú´Â true
+    // OR : bool ê°’ì´ ëª¨ë‘ falseì´ë©´ ê²°ê³¼ false,
+    //      í•˜ë‚˜ë¼ë„ trueì´ë©´ ê²°ê³¼ëŠ” true
     cout << (true || true) << endl;
     cout << (true || false) << endl;
 
-    // ±¹¾î°¡ 90ÀÌ»óÀÌ°í ¿µ¾î°¡ 90ÀÌ»óÀÌ¸é ~
+    // êµ­ì–´ê°€ 90ì´ìƒì´ê³  ì˜ì–´ê°€ 90ì´ìƒì´ë©´ ~
     int kor = 80;
     int eng = 95;
 
     // cout << ( kor >= 90 && eng >= 90 ) << endl;
-    //  ¡é
+    //  â†“
     // cout << ( false && true ) << endl;
-    //  ¡é
+    //  â†“
     // cout << ( false ) << endl;
 
     cout << !(kor >= 90 && eng >= 90) << endl;
@@ -90,7 +90,7 @@ void OperationLogical()
 
 void OperationBit()
 {
-    // ºñÆ® ¿¬»ê
+    // ë¹„íŠ¸ ì—°ì‚°
     int Bit1 = 15; // 00001111
     int Bit2 = 20; // 00010100
 
@@ -101,7 +101,7 @@ void OperationBit()
 
     cout << BitAnd << endl;
 
-    // 15 ¼ıÀÚ °ªÀ» ºñÆ® ÀÌµ¿ ¿¬»ê
+    // 15 ìˆ«ì ê°’ì„ ë¹„íŠ¸ ì´ë™ ì—°ì‚°
     // cout << ( Bit1 << 1 ) << endl;
     // 00001111
     // 00011110 => 2^0 * 0 + 2^1 * 1 + 2^2 * 1 + 2^3 * 1 + 2^4 * 1 = 0 + 2 + 4 + 8
@@ -110,7 +110,7 @@ void OperationBit()
 
 void OperationTriple()
 {
-    // »ïÇ× ¿¬»ê
+    // ì‚¼í•­ ì—°ì‚°
     cout << (3 > 5 ? "Hello" : "World") << endl;
     cout << (3 < 5 ? "Hello" : "World") << endl;
 }

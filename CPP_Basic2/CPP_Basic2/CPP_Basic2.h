@@ -1,4 +1,4 @@
-#pragma once
+Ôªø#pragma once
 void InputOutput();
 void Variable();
 void VariableTypeNumber();
@@ -24,7 +24,7 @@ void AlarmClock();
 void OvenClock();
 void TripleDice();
 
-void MultipleCalculate(); // πÈ¡ÿ 10650
+void MultipleCalculate(); // Î∞±Ï§Ä 10650
 void ReceiptInspection();
 void StarTree();
 void StarTree2();
@@ -40,3 +40,4 @@ void CallByValue();
 void IndexChar();
 void AlphabetFind();
 void Enum();
+void PointerDefine();
