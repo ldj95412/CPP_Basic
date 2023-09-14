@@ -198,3 +198,7 @@ class Car
 
 }
 ```
+
+## 생성자(Constructor)와 소멸자(Destructor)
+ - 클래스 타입의 변수가 생성될 때 초기화 하는 함수
+	- 

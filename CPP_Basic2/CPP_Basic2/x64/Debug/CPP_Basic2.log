@@ -1,2 +1,5 @@
-﻿  Ch06-1_Example.cpp
+﻿  CPP_Basic2.cpp
+C:\Users\ASUS\Cpp_PL\CPP_Basic\CPP_Basic\CPP_Basic2\CPP_Basic2\CPP_Basic2.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\ASUS\Cpp_PL\CPP_Basic\CPP_Basic\CPP_Basic2\CPP_Basic2\CPP_Basic2.cpp(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\ASUS\Cpp_PL\CPP_Basic\CPP_Basic\CPP_Basic2\CPP_Basic2\CPP_Basic2.cpp(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
   CPP_Basic2.vcxproj -> C:\Users\ASUS\Cpp_PL\CPP_Basic\CPP_Basic\CPP_Basic2\x64\Debug\CPP_Basic2.exe
