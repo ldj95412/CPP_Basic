@@ -41,3 +41,4 @@ void IndexChar();
 void AlphabetFind();
 void Enum();
 void PointerDefine();
+void DynamicVariable();

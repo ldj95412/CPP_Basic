@@ -54,6 +54,12 @@
     <ClCompile Include="Ch08._Pointer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Ch09_Dynamic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniProject_02.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CPP_Basic2.h">
@@ -67,5 +73,6 @@
     <None Include="Basic.md">
       <Filter>Source Files</Filter>
     </None>
+    <None Include="CPP_Basic.md" />
   </ItemGroup>
 </Project>

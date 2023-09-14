@@ -5,7 +5,7 @@
 // 코드 블럭 : {} 영역, 기능 단위로 그룹화
 int main()
 {
-	PointerDefine();
+	DynamicVariable();
 	cout << endl << "End of Code" << endl;
 
 

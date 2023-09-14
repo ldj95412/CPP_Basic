@@ -46,8 +46,4 @@ void PointerDefine()
 	cout << "*array+1 : " << *array+1 << endl;
 	cout << "*pArray[0] : " << *pArray+1 << endl;
 
-
-
-
-
 }
